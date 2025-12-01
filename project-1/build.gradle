@@ -1,5 +1,11 @@
 description = 'project-1'
 
+dependencies {
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind:2.17.3'
+    testRuntimeOnly 'com.fasterxml.jackson.core:jackson-databind:2.17.3'
+}
+
+
 test {
     useJUnitPlatform()
 }
